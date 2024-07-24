@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="PirateJam15"
+config/name="Chimera PSJ15"
 config/icon="res://icon.png"
 
 [gui]
