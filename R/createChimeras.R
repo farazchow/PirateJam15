@@ -131,23 +131,34 @@ CreateSpritesheet <- function(root, guess) {
   
   result = magick::image_append(images, stack = TRUE)
   print(guess)
-  magick::image_write(result, paste0(root, pathSeparator, guess, "-spritesheet.png"), flatten = FALSE)
+  
+  if (is.null(guess)) {
+    sep = ""
+  } else {
+    sep = "-"
+  }
+  
+  magick::image_write(result, paste0(root, pathSeparator, guess, sep, "spritesheet.png"), flatten = FALSE)
 }
 
-CreateChimeras <- function() {
-  folder = "."
+CreateChimeras <- function(fullSend = FALSE) {
+  folder = "img"
   headRule = "head"
   armsRule = "arms"
   bodyRule = "body"
   legsRule = "legs"
   tailRule = "tail"
   
-  justGuess = magick::compose_types() %>%
-    .[! . %in% c("Blur")]
-  justGuess = NULL
-  
-  sapply(justGuess, function(x) {
-    nextFolder = Stepwise(folder, x, headRule, armsRule, bodyRule, legsRule, tailRule)
-    CreateSpritesheet(nextFolder, x)
-  })
+  if (fullSend) {
+    justGuess = magick::compose_types() %>%
+      .[! . %in% c("Blur")]
+    
+    sapply(justGuess, function(x) {
+      nextFolder = Stepwise(folder, x, headRule, armsRule, bodyRule, legsRule, tailRule)
+      CreateSpritesheet(nextFolder, x)
+    })
+  } else {
+    nextFolder = Stepwise(folder, NULL, headRule, armsRule, bodyRule, legsRule, tailRule)
+    CreateSpritesheet(nextFolder, NULL)
+  }
 }
