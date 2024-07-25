@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://brmetjl05cg57"]
+
+[ext_resource type="Texture2D" uid="uid://fkdt8lv6x3df" path="res://kenney/PNG/Black/Rectangle/runeBlack_rectangle_001.png" id="1_2js2x"]
+[ext_resource type="Theme" uid="uid://b6lk6mbt0yp5h" path="res://prefabs/font_theme.tres" id="2_k482t"]
+[ext_resource type="FontFile" uid="uid://bmlvgy0exl15" path="res://kenney/Font/Kenney Future.ttf" id="3_pk0r6"]
+
+[node name="VBoxContainer" type="VBoxContainer"]
+offset_right = 411.0
+offset_bottom = 243.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_2js2x")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+theme = ExtResource("2_k482t")
+theme_override_fonts/font = ExtResource("3_pk0r6")
+theme_override_font_sizes/font_size = 64
+text = "Made  in
+Godot"
+horizontal_alignment = 1
