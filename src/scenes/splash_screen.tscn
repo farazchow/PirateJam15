@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bms541m4w5cb"]
+
+[ext_resource type="PackedScene" uid="uid://c688rliokxsbr" path="res://prefabs/splash_ui.tscn" id="1_ci7ts"]
+
+[node name="SplashScreen" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 640.0
+offset_bottom = 480.0
+
+[node name="SplashUi" parent="Control" instance=ExtResource("1_ci7ts")]
+layout_mode = 1
