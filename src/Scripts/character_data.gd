@@ -7,14 +7,16 @@ class_name CharacterData
 	get:
 		return initial_health
 	set(value):
-		assert(initial_health >= 0)
+		assert(value >= 0)
 		initial_health = value
-@export var health: int
+		health = value
 @export var attack: int = 0
 @export var armor: int = 0
 @export var speed: int = 0
 @export var level: int = 1
 var evasion: int = 0
+var health: int = 0
+
 
 @export_category("Equipment")
 @export var back_leg: EquipmentData:

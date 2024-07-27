@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=3 format=3 uid="uid://bosuyatui3ge5"]
+
+[ext_resource type="Script" path="res://Scripts/character_data.gd" id="1_iyl8t"]
+[ext_resource type="Texture2D" uid="uid://uqhlj4w06pc7" path="res://icon.png" id="2_dkhmk"]
+
+[resource]
+script = ExtResource("1_iyl8t")
+initial_health = 10
+health = 0
+attack = 0
+armor = 0
+speed = 0
+level = 1
+texture = ExtResource("2_dkhmk")
+name = "Demo Chimera"
