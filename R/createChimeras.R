@@ -29,8 +29,9 @@ Short <- function(filepath, rule) {
             stringr::str_to_title(.)
 }
 
-CreateImage <- function(filename, guess, ...) {
+CreateImage <- function(filename, guess, ..., useGreenScreen = TRUE) {
   images = list(...)
+  greenScreen = "#00ff00"
   dims = PrintDims(images[[1]]) %>%
     strsplit(., "x") %>%
       .[[1]] %>%
@@ -38,8 +39,17 @@ CreateImage <- function(filename, guess, ...) {
   
   composite = magick::image_blank(dims[[1]], dims[[2]])
   
+  if (useGreenScreen[[1]]) {
+    composite = magick::image_background(composite, greenScreen)
+  }
+  
   for (ptr in images) {
+    # alphaLayer = magick::image_mosaic(c(magick::image_channel(composite, "alpha"), magick::image_channel(ptr, "alpha")), "Multiply")
     composite = magick::image_mosaic(c(composite, ptr), operator = guess)
+  }
+  
+  if (useGreenScreen[[1]]) {
+    composite = magick::image_transparent(composite, greenScreen, fuzz = 0)
   }
   
   magick::image_write(composite, filename, flatten = FALSE)
@@ -141,8 +151,7 @@ CreateSpritesheet <- function(root, guess) {
   magick::image_write(result, paste0(root, pathSeparator, guess, sep, "spritesheet.png"), flatten = FALSE)
 }
 
-CreateChimeras <- function(fullSend = FALSE) {
-  folder = "img"
+CreateChimeras <- function(folder = "img", fullSend = FALSE) {
   headRule = "head"
   armsRule = "arms"
   bodyRule = "body"
@@ -160,5 +169,6 @@ CreateChimeras <- function(fullSend = FALSE) {
   } else {
     nextFolder = Stepwise(folder, NULL, headRule, armsRule, bodyRule, legsRule, tailRule)
     CreateSpritesheet(nextFolder, NULL)
+    nextFolder
   }
 }
