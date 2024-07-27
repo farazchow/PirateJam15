@@ -1,0 +1,203 @@
+[gd_scene load_steps=38 format=3 uid="uid://18omfck7rymv"]
+
+[ext_resource type="Texture2D" uid="uid://dpyk3vfmw1ryd" path="res://kenney/Textures/parchmentFoldedCrinkled.png" id="1_a135s"]
+[ext_resource type="LabelSettings" uid="uid://cl6lxoel6u3o1" path="res://prefabs/book_label_settings.tres" id="2_1826o"]
+[ext_resource type="Texture2D" uid="uid://c3blo7yqeaa48" path="res://kenney/PNG/Black/Tile/runeBlack_tile_002.png" id="3_d410q"]
+[ext_resource type="Texture2D" uid="uid://dahcak1yeiww6" path="res://kenney/PNG/Black/Tile/runeBlack_tile_001.png" id="4_ev4un"]
+[ext_resource type="Texture2D" uid="uid://cvtn0jr52cdqy" path="res://kenney/PNG/Black/Tile/runeBlack_tile_003.png" id="5_2dm2j"]
+[ext_resource type="Texture2D" uid="uid://durwsesteo3py" path="res://kenney/PNG/Black/Tile/runeBlack_tile_004.png" id="6_6iovk"]
+[ext_resource type="Texture2D" uid="uid://cwiatg71ynklg" path="res://kenney/PNG/Black/Tile/runeBlack_tile_005.png" id="7_63mg0"]
+[ext_resource type="Texture2D" uid="uid://cby81vyfqi317" path="res://kenney/PNG/Black/Tile/runeBlack_tile_006.png" id="8_mbyrx"]
+[ext_resource type="Texture2D" uid="uid://ct3cg302vwx7r" path="res://kenney/PNG/Black/Tile/runeBlack_tile_007.png" id="9_j4tk0"]
+[ext_resource type="Texture2D" uid="uid://r3p5lieefyt2" path="res://kenney/PNG/Black/Tile/runeBlack_tile_008.png" id="10_fli78"]
+[ext_resource type="Texture2D" uid="uid://cnexi6g1meovw" path="res://kenney/PNG/Black/Tile/runeBlack_tile_009.png" id="11_umuk7"]
+[ext_resource type="Texture2D" uid="uid://dg8b54mao04lk" path="res://kenney/PNG/Black/Tile/runeBlack_tile_010.png" id="12_wps52"]
+[ext_resource type="Texture2D" uid="uid://do2yq7t23nnus" path="res://kenney/PNG/Black/Tile/runeBlack_tile_011.png" id="13_raulx"]
+[ext_resource type="Texture2D" uid="uid://p08st4jhqtls" path="res://kenney/PNG/Black/Tile/runeBlack_tile_012.png" id="14_e16hc"]
+[ext_resource type="Texture2D" uid="uid://du1kehuj55yxf" path="res://kenney/PNG/Black/Tile/runeBlack_tile_013.png" id="15_hgfts"]
+[ext_resource type="Texture2D" uid="uid://cxkv35o2nbptt" path="res://kenney/PNG/Black/Tile/runeBlack_tile_014.png" id="16_sc20x"]
+[ext_resource type="Texture2D" uid="uid://bdcybp3kir4h" path="res://kenney/PNG/Black/Tile/runeBlack_tile_015.png" id="17_6dja0"]
+[ext_resource type="Texture2D" uid="uid://bhu6q6rtm74ov" path="res://kenney/PNG/Black/Tile/runeBlack_tile_016.png" id="18_bnr0n"]
+[ext_resource type="Texture2D" uid="uid://bknkcjxrvh2nm" path="res://kenney/PNG/Black/Tile/runeBlack_tile_017.png" id="19_rxis0"]
+[ext_resource type="Texture2D" uid="uid://dkcks30b4ly5q" path="res://kenney/PNG/Black/Tile/runeBlack_tile_018.png" id="20_ljcpn"]
+[ext_resource type="Texture2D" uid="uid://d4ka0acdxhlb6" path="res://kenney/PNG/Black/Tile/runeBlack_tile_019.png" id="21_a7363"]
+[ext_resource type="Texture2D" uid="uid://c35n8o7nfmuky" path="res://kenney/PNG/Black/Tile/runeBlack_tile_020.png" id="22_6tmsb"]
+[ext_resource type="Texture2D" uid="uid://deke572xhbjk3" path="res://kenney/PNG/Black/Tile/runeBlack_tile_023.png" id="22_bypbm"]
+[ext_resource type="Texture2D" uid="uid://dosvdt4gay15h" path="res://kenney/PNG/Black/Tile/runeBlack_tile_021.png" id="23_4dowk"]
+[ext_resource type="Texture2D" uid="uid://oxvp41grwfk7" path="res://kenney/PNG/Black/Tile/runeBlack_tile_022.png" id="24_wxmqs"]
+[ext_resource type="Texture2D" uid="uid://bcn6r0qmijlnj" path="res://kenney/PNG/Black/Tile/runeBlack_tile_024.png" id="25_00e8j"]
+[ext_resource type="Texture2D" uid="uid://oh6x8i5hbdbu" path="res://kenney/PNG/Black/Tile/runeBlack_tile_025.png" id="26_u2j1v"]
+[ext_resource type="Texture2D" uid="uid://cbvy6v8jufyu0" path="res://kenney/PNG/Black/Tile/runeBlack_tile_026.png" id="27_0hly2"]
+[ext_resource type="Texture2D" uid="uid://c3j7w72gdm3mx" path="res://kenney/PNG/Black/Tile/runeBlack_tile_027.png" id="28_pag6g"]
+[ext_resource type="Texture2D" uid="uid://bna02fsnkdf6g" path="res://kenney/PNG/Black/Tile/runeBlack_tile_028.png" id="29_ty7gc"]
+[ext_resource type="Texture2D" uid="uid://bhkwlgqy0lwvc" path="res://kenney/PNG/Black/Tile/runeBlack_tile_029.png" id="30_hokl6"]
+[ext_resource type="Texture2D" uid="uid://0dlfeypgocj" path="res://kenney/PNG/Black/Tile/runeBlack_tile_030.png" id="31_78n37"]
+[ext_resource type="Texture2D" uid="uid://c0qsapf1bfdun" path="res://kenney/PNG/Black/Tile/runeBlack_tile_031.png" id="32_aomr8"]
+[ext_resource type="Texture2D" uid="uid://cku0fdepsjwe6" path="res://kenney/PNG/Black/Tile/runeBlack_tile_032.png" id="33_hj8s3"]
+[ext_resource type="Texture2D" uid="uid://mm1xg1nvqwx0" path="res://kenney/PNG/Black/Tile/runeBlack_tile_033.png" id="34_alcjq"]
+[ext_resource type="Texture2D" uid="uid://bphegcswkght" path="res://kenney/PNG/Black/Tile/runeBlack_tile_034.png" id="35_crqs0"]
+[ext_resource type="Texture2D" uid="uid://bjfakng8d5oq" path="res://kenney/PNG/Black/Tile/runeBlack_tile_035.png" id="36_vv1ds"]
+
+[node name="TextureRect" type="TextureRect"]
+offset_right = 300.0
+offset_bottom = 400.0
+texture = ExtResource("1_a135s")
+expand_mode = 1
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -84.5
+offset_top = 12.5
+offset_right = 84.5
+offset_bottom = 39.5
+grow_horizontal = 2
+text = "Discoveries"
+label_settings = ExtResource("2_1826o")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 45.0
+offset_right = 191.0
+offset_bottom = 72.0
+text = "Phlegmatic"
+label_settings = ExtResource("2_1826o")
+
+[node name="ItemList" type="ItemList" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 70.0
+offset_right = 440.0
+offset_bottom = 210.0
+scale = Vector2(0.45, 0.45)
+item_count = 9
+max_columns = 7
+item_0/text = ""
+item_0/icon = ExtResource("3_d410q")
+item_1/text = ""
+item_1/icon = ExtResource("4_ev4un")
+item_2/text = ""
+item_2/icon = ExtResource("5_2dm2j")
+item_3/text = ""
+item_3/icon = ExtResource("6_6iovk")
+item_4/text = ""
+item_4/icon = ExtResource("7_63mg0")
+item_5/text = ""
+item_5/icon = ExtResource("8_mbyrx")
+item_6/text = ""
+item_6/icon = ExtResource("9_j4tk0")
+item_7/text = ""
+item_7/icon = ExtResource("10_fli78")
+item_8/text = ""
+item_8/icon = ExtResource("11_umuk7")
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 135.0
+offset_right = 157.0
+offset_bottom = 162.0
+text = "Choleric"
+label_settings = ExtResource("2_1826o")
+
+[node name="ItemList2" type="ItemList" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 160.0
+offset_right = 440.0
+offset_bottom = 300.0
+scale = Vector2(0.45, 0.45)
+item_count = 11
+max_columns = 7
+item_0/text = ""
+item_0/icon = ExtResource("12_wps52")
+item_1/text = ""
+item_1/icon = ExtResource("13_raulx")
+item_2/text = ""
+item_2/icon = ExtResource("14_e16hc")
+item_3/text = ""
+item_3/icon = ExtResource("15_hgfts")
+item_4/text = ""
+item_4/icon = ExtResource("16_sc20x")
+item_5/text = ""
+item_5/icon = ExtResource("17_6dja0")
+item_6/text = ""
+item_6/icon = ExtResource("18_bnr0n")
+item_7/text = ""
+item_7/icon = ExtResource("19_rxis0")
+item_8/text = ""
+item_8/icon = ExtResource("20_ljcpn")
+item_9/text = ""
+item_9/icon = ExtResource("21_a7363")
+item_10/text = ""
+item_10/icon = ExtResource("22_bypbm")
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 225.0
+offset_right = 157.0
+offset_bottom = 252.0
+text = "Sanguine"
+label_settings = ExtResource("2_1826o")
+
+[node name="ItemList3" type="ItemList" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 250.0
+offset_right = 440.0
+offset_bottom = 390.0
+scale = Vector2(0.45, 0.45)
+item_count = 9
+max_columns = 7
+item_0/text = ""
+item_0/icon = ExtResource("22_6tmsb")
+item_1/text = ""
+item_1/icon = ExtResource("23_4dowk")
+item_2/text = ""
+item_2/icon = ExtResource("24_wxmqs")
+item_3/text = ""
+item_3/icon = ExtResource("25_00e8j")
+item_4/text = ""
+item_4/icon = ExtResource("26_u2j1v")
+item_5/text = ""
+item_5/icon = ExtResource("27_0hly2")
+item_6/text = ""
+item_6/icon = ExtResource("28_pag6g")
+item_7/text = ""
+item_7/icon = ExtResource("29_ty7gc")
+item_8/text = ""
+item_8/icon = ExtResource("30_hokl6")
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 315.0
+offset_right = 213.0
+offset_bottom = 342.0
+text = "Melancholic"
+label_settings = ExtResource("2_1826o")
+
+[node name="ItemList4" type="ItemList" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 340.0
+offset_right = 440.0
+offset_bottom = 480.0
+scale = Vector2(0.45, 0.45)
+item_count = 6
+max_columns = 7
+item_0/text = ""
+item_0/icon = ExtResource("31_78n37")
+item_1/text = ""
+item_1/icon = ExtResource("32_aomr8")
+item_2/text = ""
+item_2/icon = ExtResource("33_hj8s3")
+item_3/text = ""
+item_3/icon = ExtResource("34_alcjq")
+item_4/text = ""
+item_4/icon = ExtResource("35_crqs0")
+item_5/text = ""
+item_5/icon = ExtResource("36_vv1ds")

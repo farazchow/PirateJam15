@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bms541m4w5cb"]
+[gd_scene load_steps=3 format=3 uid="uid://bms541m4w5cb"]
 
+[ext_resource type="Script" path="res://scenes/splash_screen.gd" id="1_28qel"]
 [ext_resource type="PackedScene" uid="uid://c688rliokxsbr" path="res://prefabs/splash_ui.tscn" id="1_ci7ts"]
 
 [node name="SplashScreen" type="Node2D"]
+script = ExtResource("1_28qel")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
