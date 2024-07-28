@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3 uid="uid://614bjjn7pxlk"]
+
+[ext_resource type="Script" path="res://Scripts/equipment_data.gd" id="1_ligk2"]
+
+[resource]
+script = ExtResource("1_ligk2")
+equipment_slot = 0
+name = "demo_equipment"
+health = 10
+speed = 10
+armor = 10
+attack = 10

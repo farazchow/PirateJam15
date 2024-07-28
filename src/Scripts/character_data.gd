@@ -3,20 +3,21 @@ extends Resource
 class_name CharacterData
 
 @export_category("Stats")
-@export var initial_health: int:
+@export var base_health: int:
 	get:
-		return initial_health
+		return base_health
 	set(value):
 		assert(value >= 0)
-		initial_health = value
+		base_health = value
 		health = value
-@export var attack: int = 0
-@export var armor: int = 0
-@export var speed: int = 0
+@export var attack: int = 1
+@export var armor: int = 1
+@export var speed: int = 1
 @export var level: int = 1
+var speed_to_evasion_ratio := .1
 var evasion: int = 0
 var health: int = 0
-
+var effect_holder: Dictionary = {"Pre-turn": [], "Post-Turn": [], "Persistent": []}
 
 @export_category("Equipment")
 @export var back_leg: EquipmentData:
@@ -54,7 +55,15 @@ var health: int = 0
 @export var name: String
 
 func _init(p_health = 20, p_texture = null, p_name = ""):
-	initial_health = p_health
+	base_health = p_health
 	health = p_health
 	texture = p_texture
 	name = p_name
+
+func setup():
+	health = base_health
+	for equipment in [back_leg, front_leg, head, body, tail]:
+		if not equipment:
+			continue
+		equipment.apply_equipment(self)
+	evasion = speed * speed_to_evasion_ratio
