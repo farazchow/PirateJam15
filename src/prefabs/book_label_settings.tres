@@ -1,0 +1,11 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cl6lxoel6u3o1"]
+
+[ext_resource type="FontFile" uid="uid://cuabjfo7nah2m" path="res://kenney/Fonts/kenvector_future_thin.ttf" id="1_6nhah"]
+
+[resource]
+font = ExtResource("1_6nhah")
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+outline_size = 2
+outline_color = Color(0.133333, 0.133333, 0.133333, 1)
+shadow_color = Color(0.133333, 0.133333, 0.133333, 1)

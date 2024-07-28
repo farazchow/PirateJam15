@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=3 uid="uid://b2eww301bcvxy"]
+
+[ext_resource type="Texture2D" uid="uid://j0oqec1ef307" path="res://kenney/PNG/Colored/genericItem_color_156.png" id="1_b3aqy"]
+[ext_resource type="Texture2D" uid="uid://xvjmyocb41k3" path="res://kenney/PNG/Colored/genericItem_color_161.png" id="2_bkgbl"]
+[ext_resource type="Texture2D" uid="uid://be0kxudr81dyr" path="res://kenney/PNG/Colored/genericItem_color_147.png" id="3_ptpri"]
+[ext_resource type="Texture2D" uid="uid://ctgn1enmfw7uv" path="res://kenney/PNG/Colored/genericItem_color_148.png" id="4_xr43s"]
+[ext_resource type="Texture2D" uid="uid://c8nyjgr8n08x0" path="res://kenney/PNG/Colored/genericItem_color_124.png" id="5_05bqa"]
+[ext_resource type="Texture2D" uid="uid://mrek0ggqaets" path="res://kenney/PNG/Colored/genericItem_color_116.png" id="6_bbhh6"]
+[ext_resource type="Texture2D" uid="uid://c7njbe63gtld0" path="res://kenney/PNG/Colored/genericItem_color_102.png" id="7_qubw2"]
+
+[node name="PotionScene" type="Node2D"]
+
+[node name="GenericItemColor156" type="Sprite2D" parent="."]
+position = Vector2(298, 240)
+texture = ExtResource("1_b3aqy")
+
+[node name="GenericItemColor161" type="Sprite2D" parent="."]
+position = Vector2(209, 387)
+texture = ExtResource("2_bkgbl")
+
+[node name="GenericItemColor147" type="Sprite2D" parent="."]
+position = Vector2(299, 394)
+texture = ExtResource("3_ptpri")
+
+[node name="GenericItemColor148" type="Sprite2D" parent="."]
+position = Vector2(80, 398)
+texture = ExtResource("4_xr43s")
+
+[node name="GenericItemColor124" type="Sprite2D" parent="."]
+position = Vector2(562, 404)
+texture = ExtResource("5_05bqa")
+
+[node name="GenericItemColor116" type="Sprite2D" parent="."]
+position = Vector2(561, 91)
+texture = ExtResource("6_bbhh6")
+
+[node name="GenericItemColor102" type="Sprite2D" parent="."]
+position = Vector2(81, 84)
+texture = ExtResource("7_qubw2")
