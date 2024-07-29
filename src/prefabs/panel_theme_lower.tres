@@ -1,0 +1,16 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://btaw50vh5uwuc"]
+
+[ext_resource type="Texture2D" uid="uid://d4mh7m3qqatq3" path="res://kenney/Vector/uipack_rpg_vector.svg" id="1_07e4c"]
+[ext_resource type="FontFile" uid="uid://bmlvgy0exl15" path="res://kenney/Font/Kenney Future.ttf" id="2_ddgca"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_51dyj"]
+texture = ExtResource("1_07e4c")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+region_rect = Rect2(568, 5, 190, 45)
+
+[resource]
+default_font = ExtResource("2_ddgca")
+Panel/styles/panel = SubResource("StyleBoxTexture_51dyj")

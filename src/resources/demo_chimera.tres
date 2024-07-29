@@ -11,7 +11,6 @@ attack = 1
 armor = 1
 speed = 1
 level = 1
-speed_to_evasion_ratio = 0.1
 back_leg = ExtResource("1_5o3fn")
 front_leg = ExtResource("1_5o3fn")
 texture = ExtResource("2_dkhmk")
