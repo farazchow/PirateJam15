@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://elf1c88v0bqi"]
 
-[ext_resource type="Script" path="res://Scripts/Chimera.gd" id="1_05w1t"]
+[ext_resource type="Script" path="res://prefabs/Chimera/Chimera.gd" id="1_3j835"]
 
 [node name="Chimera" type="Node2D"]
-script = ExtResource("1_05w1t")
+script = ExtResource("1_3j835")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

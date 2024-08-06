@@ -4,8 +4,8 @@ extends Node2D
 @onready var EnemyHPLabel := $"Enemy HP"
 
 @onready var demo_chimera_resource := preload("res://resources/demo_chimera.tres")
-@onready var demo_enemy_resource := preload("res://resources/demo_enemy.tres")
-@onready var character_scene := preload("res://scenes/chimera.tscn")
+@onready var demo_enemy_resource := preload("res://resources/enemies/demo_enemy.tres")
+@onready var character_scene := preload("res://prefabs/Chimera/chimera.tscn")
 
 var chimera
 var enemy

@@ -8,8 +8,8 @@ var ui : Control
 
 var _nextScene : Node2D
 var _nextUI : Control
-var firstScene = preload("res://prefabs/potion_scene.tscn").instantiate()
-var firstUI = preload("res://prefabs/RunesBook.tscn").instantiate()
+var firstScene = preload("res://prefabs/misc/potion_scene.tscn").instantiate()
+var firstUI = preload("res://prefabs/misc/RunesBook.tscn").instantiate()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

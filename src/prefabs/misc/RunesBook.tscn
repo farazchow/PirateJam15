@@ -1,7 +1,7 @@
 [gd_scene load_steps=38 format=3 uid="uid://18omfck7rymv"]
 
 [ext_resource type="Texture2D" uid="uid://dpyk3vfmw1ryd" path="res://kenney/Textures/parchmentFoldedCrinkled.png" id="1_a135s"]
-[ext_resource type="LabelSettings" uid="uid://cl6lxoel6u3o1" path="res://prefabs/book_label_settings.tres" id="2_1826o"]
+[ext_resource type="LabelSettings" uid="uid://cl6lxoel6u3o1" path="res://prefabs/misc/book_label_settings.tres" id="2_1826o"]
 [ext_resource type="Texture2D" uid="uid://c3blo7yqeaa48" path="res://kenney/PNG/Black/Tile/runeBlack_tile_002.png" id="3_d410q"]
 [ext_resource type="Texture2D" uid="uid://dahcak1yeiww6" path="res://kenney/PNG/Black/Tile/runeBlack_tile_001.png" id="4_ev4un"]
 [ext_resource type="Texture2D" uid="uid://cvtn0jr52cdqy" path="res://kenney/PNG/Black/Tile/runeBlack_tile_003.png" id="5_2dm2j"]
@@ -37,6 +37,7 @@
 [ext_resource type="Texture2D" uid="uid://mm1xg1nvqwx0" path="res://kenney/PNG/Black/Tile/runeBlack_tile_033.png" id="34_alcjq"]
 [ext_resource type="Texture2D" uid="uid://bphegcswkght" path="res://kenney/PNG/Black/Tile/runeBlack_tile_034.png" id="35_crqs0"]
 [ext_resource type="Texture2D" uid="uid://bjfakng8d5oq" path="res://kenney/PNG/Black/Tile/runeBlack_tile_035.png" id="36_vv1ds"]
+
 
 [node name="TextureRect" type="TextureRect"]
 offset_right = 300.0

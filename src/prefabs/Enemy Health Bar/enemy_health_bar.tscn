@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce7kv7alxqo02"]
+
+[ext_resource type="Script" path="res://prefabs/Enemy Health Bar/enemy_health_bar.gd" id="1_qb8hr"]
+
+[node name="enemyHealthBar" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qb8hr")
+
+[node name="enemyNameLabel" type="RichTextLabel" parent="."]
+layout_mode = 2
+offset_top = 221.0
+offset_right = 640.0
+offset_bottom = 256.0
+bbcode_enabled = true
+text = "[font_size=25][center]Name[/center][/font_size]"
+fit_content = true
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+modulate = Color(0.870588, 0, 0.0156863, 1)
+layout_mode = 2
+offset_left = 192.0
+offset_top = 256.0
+offset_right = 448.0
+offset_bottom = 282.0
+step = 1.0
+show_percentage = false
+
+[node name="EffectContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 282.0
+offset_right = 448.0
+offset_bottom = 320.0

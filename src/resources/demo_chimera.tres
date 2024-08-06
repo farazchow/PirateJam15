@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CharacterData" load_steps=4 format=3 uid="uid://bosuyatui3ge5"]
 
-[ext_resource type="Resource" uid="uid://614bjjn7pxlk" path="res://resources/demo_equipment.tres" id="1_5o3fn"]
+[ext_resource type="Resource" uid="uid://614bjjn7pxlk" path="res://resources/equipments/demo_equipment.tres" id="1_5o3fn"]
 [ext_resource type="Script" path="res://Scripts/character_data.gd" id="1_iyl8t"]
 [ext_resource type="Texture2D" uid="uid://uqhlj4w06pc7" path="res://icon.png" id="2_dkhmk"]
 

@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://c688rliokxsbr"]
 
-[ext_resource type="PackedScene" uid="uid://brmetjl05cg57" path="res://prefabs/test_splash1.tscn" id="1_iofja"]
+[ext_resource type="PackedScene" uid="uid://brmetjl05cg57" path="res://test scenes/test_splash1.tscn" id="1_iofja"]
+
 
 [node name="SplashUi" type="Control"]
 layout_mode = 3
